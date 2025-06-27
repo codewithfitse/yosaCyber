@@ -14,7 +14,7 @@ const Header = () => {
       <div className="w-full h-fit py-2 px-5 flex justify-between items-center bg-gray-400 relative">
         <div className="pl-2 lg:pl-6 flex items-center">
           <img
-            src="/Logo/Logo1.PNG"
+            src="Logo1.PNG"
             className="w-24 lg:w-15 h-fit"
             alt="Logo"
             srcSet=""
