@@ -9,38 +9,56 @@ const Home = () => {
     <>
       <div className="w-full overflow-x-hidden h-[100%] background text-amber-50">
         <Header />
-        <div className="grid grid-cols-1 lg:grid-cols-2 pt-[100px] lg:pt-[150px] pl-[20px] lg:pl-[40px] relative">
-          <div className="w-full lg:w-[100%]">
-            <h1 className="text-[30px] lg:text-[45px] font-semibold">
-              <span className="text-[40px] lg:text-[60px] text-[#16fe01] font-bold font-serif">
-                Yosa
-              </span>{" "}
-              CAR RENTAL <br />
-              SERVICE IN ETHIOPIA
-            </h1>
-            <p className="text-[20px]/7 lg:text-[30px]/10 my-3 lg:my-6">
-              Daily or Weekly Car Rentals for <br />
-              Your Business or Visiting Travel Plans
-            </p>
-            <div className="flex  mt-5 lg:mt-10 space-x-2.5">
-              <Link to={"/Contact"}>
-                <Button text={"Contact Us"} />
-              </Link>
-              <Link to={"/Booking"}>
-                <Button text={"Our Services"} />
-              </Link>
+
+        <div className="w-full h-[500px] mt-30 bg-[#121212]">
+          <div className="w-full pt-5 pb-5">
+            <h1 className="text-center font-bold text-[40px]">Contact US</h1>
+          </div>
+          <div className="w-full h-full flex">
+            <div className="w-full h-full">
+              <div className="w-full h-full flex flex-col space-y-5 pl-20 pr-2">
+                <h1 className="text-[25px]">Drop us a line!</h1>
+                <input
+                  type="text"
+                  className="w-full p-2 bg-black rounded-[5px] pl-2 placeholder:pl-2"
+                  placeholder="Name"
+                />
+                <input
+                  type="text"
+                  className="w-full p-2 bg-black rounded-[5px] pl-2 placeholder:pl-2"
+                  placeholder="Email*"
+                />
+                <input
+                  type="text"
+                  className="w-full p-10 bg-black rounded-[5px] pl-2 placeholder:pl-2"
+                  placeholder="Message"
+                />
+
+                <h1 className="w-auto text-center text-[14px]">
+                  This site is protected by reCAPTCHA and the Google{" "}
+                  <span className="text-amber-200">Privacy Policy</span>
+                  and <span className="text-amber-200">
+                    Terms of Service
+                  </span>{" "}
+                  apply.
+                </h1>
+              </div>
+            </div>
+            <div className="w-full h-full bg-amber-600">
+              <div className="pl-10">
+                <h1 className="font-bold text-[40px]">Honey Bee Xpress</h1>
+                <h1 className="font-bold text-[40px]">Business Hours</h1>
+                <h1 className="text-[15px]">Mon 06:00 am – 06:00 pm</h1>
+                <h1 className="text-[15px]">Tue 06:00 am – 06:00 pm</h1>
+                <h1 className="text-[15px]">Wed 06:00 am – 06:00 pm</h1>
+                <h1 className="text-[15px]">Thu 06:00 am – 06:00 pm</h1>
+                <h1 className="text-[15px]">Fri 06:00 am – 06:00 pm</h1>
+                <h1 className="text-[15px]">Sat Closed</h1>
+                <h1 className="text-[15px]">Sun Closed</h1>
+              </div>
             </div>
           </div>
-
-          <div className="w-[100%] mt-10 lg:w-[100%] flex justify-center">
-            <img
-              src="mercedis.png"
-              className="w-[600px] lg:w-[700px] h-fit lg:absolute lg:right-[10px] hover:scale-102 hover:transition-1s"
-              alt="Mercedis"
-            />
-          </div>
         </div>
-
         <Footer />
       </div>
     </>
