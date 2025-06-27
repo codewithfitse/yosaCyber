@@ -7,7 +7,7 @@ export const Landing = () => {
     <div className="w-full h-screen landingBg overflow-y-hidden">
       <div className="h-screen pt-130 lg:pt-72 pl-5 lg:pl-15 pb-32 lg:pb-9 text-[25px]/7 text-white font-serif lg:text-6xl/15 font-bold backdrop-blur-[5px]">
         <h1 className="mb-3 text-[#16fe01]">
-          <span className="text-[80px] font-serif">T</span>ime
+          <span className="text-[80px] font-serif">Y</span>osa
           <br />
         </h1>
         <h1 className="">Car Rental Website</h1>

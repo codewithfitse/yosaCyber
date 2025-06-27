@@ -13,7 +13,7 @@ const Home = () => {
           <div className="w-full lg:w-[100%]">
             <h1 className="text-[30px] lg:text-[45px] font-semibold">
               <span className="text-[40px] lg:text-[60px] text-[#16fe01] font-bold font-serif">
-                Time
+                Yosa
               </span>{" "}
               CAR RENTAL <br />
               SERVICE IN ETHIOPIA
