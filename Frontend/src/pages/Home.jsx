@@ -12,7 +12,9 @@ const Home = () => {
 
         <div className="w-full h-[500px] mt-30 bg-[#121212]">
           <div className="w-full pt-5 pb-5">
-            <h1 className="text-center font-bold text-[40px]">Contact US</h1>
+            <h1 className="text-center font-bold text-[40px] text-amber-200">
+              Contact US
+            </h1>
           </div>
           <div className="w-full h-full flex">
             <div className="w-full h-full">
@@ -36,7 +38,7 @@ const Home = () => {
 
                 <h1 className="w-auto text-center text-[14px]">
                   This site is protected by reCAPTCHA and the Google{" "}
-                  <span className="text-amber-200">Privacy Policy</span>
+                  <span className="text-amber-200">Privacy Policy </span>
                   and <span className="text-amber-200">
                     Terms of Service
                   </span>{" "}
@@ -44,17 +46,23 @@ const Home = () => {
                 </h1>
               </div>
             </div>
-            <div className="w-full h-full bg-amber-600">
+            <div className="w-full h-full">
               <div className="pl-10">
-                <h1 className="font-bold text-[40px]">Honey Bee Xpress</h1>
-                <h1 className="font-bold text-[40px]">Business Hours</h1>
-                <h1 className="text-[15px]">Mon 06:00 am – 06:00 pm</h1>
-                <h1 className="text-[15px]">Tue 06:00 am – 06:00 pm</h1>
-                <h1 className="text-[15px]">Wed 06:00 am – 06:00 pm</h1>
-                <h1 className="text-[15px]">Thu 06:00 am – 06:00 pm</h1>
-                <h1 className="text-[15px]">Fri 06:00 am – 06:00 pm</h1>
-                <h1 className="text-[15px]">Sat Closed</h1>
-                <h1 className="text-[15px]">Sun Closed</h1>
+                <h1 className="font-bold text-[40px] text-amber-200">
+                  Honey Bee Xpress
+                </h1>
+                <h1 className="font-bold text-[40px] text-amber-200">
+                  Business Hours
+                </h1>
+                <div className="mt-3">
+                  <h1 className="text-[15px]">Mon 06:00 am – 06:00 pm</h1>
+                  <h1 className="text-[15px]">Tue 06:00 am – 06:00 pm</h1>
+                  <h1 className="text-[15px]">Wed 06:00 am – 06:00 pm</h1>
+                  <h1 className="text-[15px]">Thu 06:00 am – 06:00 pm</h1>
+                  <h1 className="text-[15px]">Fri 06:00 am – 06:00 pm</h1>
+                  <h1 className="text-[15px]">Sat Closed</h1>
+                  <h1 className="text-[15px]">Sun Closed</h1>
+                </div>
               </div>
             </div>
           </div>
