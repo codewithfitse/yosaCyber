@@ -24,10 +24,10 @@ const Home = () => {
         </div>
 
         <div className=" w-full h-full flex flex-col items-center">
-          <h1 className="py-7 text-[40px] font-bold H1">
+          <h1 className="py-7 text-[30px] lg:text-[40px] font-bold H1">
             About honeybee xpress
           </h1>
-          <div className="w-full h-full mt-40 lg:mt-5 flex flex-col items-center lg:flex-row">
+          <div className="w-full h-full mt-5 flex flex-col items-center lg:flex-row gap-3">
             <div className="w-full h-auto lg:pl-20 lg:pr-10">
               <div className="w-full h-full">
                 <img
@@ -80,7 +80,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="w-full h-fit pb-5 mt-30 mb-2 bg-[#121212]">
+        <div className="w-full h-fit pb-5 mt-20 lg:mt-30 bg-[#121212]">
           <div className="w-full pt-5 pb-5">
             <h1 className="text-center font-bold text-[40px] H1">Contact US</h1>
           </div>

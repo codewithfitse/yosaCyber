@@ -6,7 +6,7 @@ import { Button } from "../components/Button";
 
 const AboutUs = () => {
   return (
-    <div className="w-full h-fit background text-amber-50">
+    <div className="w-full h-fit text-amber-50">
       <Header />
 
       <div className="w-full h-full lg:pt-40 flex flex-col gap-10">
