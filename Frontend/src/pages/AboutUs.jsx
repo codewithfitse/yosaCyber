@@ -11,7 +11,9 @@ const AboutUs = () => {
 
       <div className="w-full h-[400px] flex">
         <div className="w-full h-full pl-20 bg-amber-200">
-          <div className="w-full h-full bg-amber-100"></div>
+          <div className="w-full h-full bg-amber-100">
+            <img src="image1/png" className="w-full h-full" alt="" srcset="" />
+          </div>
         </div>
         <div className="w-full h-full bg-amber-400"></div>
       </div>
