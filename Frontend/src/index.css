@@ -10,7 +10,8 @@ body {
 
 .background {
   width: 100%;
-  background-image: url(../public/comitement.jpg);
+  height: 700px;
+  background-image: url('/hero.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-clip: border-box;
