@@ -16,7 +16,7 @@ const Header = () => {
           Ask about our introductory rate
         </h1>
       </div>
-      <div className="w-full h-fit py-2 px-5 flex justify-between items-center bg-gray-950 ">
+      <div className="w-full h-fit py-2 px-5 flex justify-between items-center bg-white/10 backdrop-blur-[2px] ">
         <div className="pl-2 lg:pl-6 flex items-center">
           <img
             src="Logo1.PNG"
