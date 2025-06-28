@@ -62,7 +62,20 @@ const Home = () => {
                   <h1 className="text-[15px]">Sat Closed</h1>
                   <h1 className="text-[15px]">Sun Closed</h1>
                 </div>
+                <div className="pt-5">
+                  <h1 className="font-bold text-[40px] H1">ADDRESS</h1>
+                  <div className="mt-3">
+                    <h1 className="text-[15px]">
+                      7345 S Durango Dr. Ste 107 PMB 1049
+                    </h1>
+                    <h1 className="text-[15px]">Las Vegas, NV 89113 </h1>
+                    <h1 className="text-[15px]">Phone: 1-800-257-7553</h1>
+                    <h1 className="text-[15px]">FAX: 702-702-1613</h1>
+                    <h1 className="text-[15px]">Fri 06:00 am – 06:00 pm</h1>
+                  </div>
+                </div>
               </div>
+              <div className="w-full h-full pt-10 lg:pt-1"></div>
             </div>
           </div>
         </div>
