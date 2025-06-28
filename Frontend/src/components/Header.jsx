@@ -30,7 +30,7 @@ const Header = () => {
           <Link to="/Services">
             <h1 className="hover:text-red-600">CDL Drivers</h1>
           </Link>
-          <Link to="">
+          <Link to="/Pricing">
             <h1 className="hover:text-red-600">Pricing</h1>
           </Link>
           <Link to="">
