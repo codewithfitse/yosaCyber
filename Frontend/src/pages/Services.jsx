@@ -9,7 +9,7 @@ const Services = () => {
     <div className="w-full h-[100%] background text-amber-50">
       <Header />
 
-      <div className="w-full h-fit pb-5 pt-30 mb-2 bg-[#121212]">
+      <div className="w-full h-fit pb-7 pt-30 bg-[#121212]">
         <div className="w-full pt-5 pb-5">
           <h1 className="text-center font-semibold text-[20px] lg:text-[40px] H1">
             HONEY BEE XPRESS LLC IS LOOKING FOR CDL TRUCK DRIVERS!
