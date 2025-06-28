@@ -10,7 +10,7 @@ import Pricing from "./pages/Pricing.jsx";
 import Services from "./pages/Services.jsx";
 import Contact from "./pages/Contact.jsx";
 import { Landing } from "./pages/Landing.jsx";
-import { SignUp } from "./pages/SignUp.jsx";
+import { Gallery } from "./pages/SignUp.jsx";
 import { Login } from "./pages/Login.jsx";
 
 const router = createBrowserRouter([
@@ -44,8 +44,8 @@ const router = createBrowserRouter([
     element: <Login />,
   },
   {
-    path: "/SignUp",
-    element: <SignUp />,
+    path: "/Gallery",
+    element: <Gallery />,
   },
 ]);
 

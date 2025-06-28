@@ -10,7 +10,7 @@ const Header = () => {
   }
 
   return (
-    <div className="w-full lg:w-full h-auto justify-between items-center text-white-500 fixed z-1 container">
+    <div className="w-full lg:w-full h-auto justify-between items-center text-white-500 fixed container">
       <div className="w-full h-[40px] p-2 bg-red-500">
         <h1 className="text-center text-black">
           Ask about our introductory rate
@@ -27,7 +27,7 @@ const Header = () => {
         </div>
         <div className="w-fit px-3 flex gap-1 lg:gap-3 justify-center text-[10px] lg:text-[20px] relative font-bold">
           <Link to="/Home">
-            <h1 className="hover:text-red-600">Home</h1>
+            <h1 className="hover:text-red-600 active:text-amber-200">Home</h1>
           </Link>
           <Link to="/AboutUs">
             <h1 className="hover:text-red-600">Dispatching Services</h1>
@@ -44,13 +44,21 @@ const Header = () => {
             </h1>
           </Link>
           {toggle ? (
-            <div className="absolute top-2 right-10 bg-amber-200">
-              <Link to="">
+            <div className="w-fit h-fit flex absolute top-8 right-0 z-10 bg-[#121212] space-x-2">
+              <Link to="/Contact">
                 <h1
-                  className="hover:text-red-600 text-3xl"
+                  className="hover:text-red-600 text-[20px]"
                   onClick={handleToggle}
                 >
                   Contact us
+                </h1>
+              </Link>
+              <Link to="/Gallery">
+                <h1
+                  className="hover:text-red-600 text-[20px]"
+                  onClick={handleToggle}
+                >
+                  Gallery
                 </h1>
               </Link>
             </div>

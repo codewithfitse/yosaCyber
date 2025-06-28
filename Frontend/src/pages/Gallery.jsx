@@ -3,9 +3,8 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
-import axios from "axios";
 
-export const SignUp = () => {
+export const Gallery = () => {
   const [firstName, setFirstName] = useState();
   const [lastName, setLastName] = useState();
   const [email, setEmail] = useState();
@@ -47,7 +46,7 @@ export const SignUp = () => {
   return (
     <div className="w-full h-[100%] background text-amber-50 overflow-x-hidden">
       <Header />
-      
+
       <div className="lg:mt-10 flex flex-col items-center justify-center min-h-screen p-4">
         <div className="bg-zinc-900 p-6 rounded-xl max-w-sm w-full space-y-6 shadow-lg">
           <div>
@@ -135,11 +134,11 @@ export const SignUp = () => {
               type="submit"
               className="w-full bg-white text-black font-semibold py-2 rounded-md hover:bg-zinc-200 transition"
             >
-            {isLoading ? (
-              <p className="text-center">Loading...</p>
-                ) : (
-                  "Create account"
-                )}
+              {isLoading ? (
+                <p className="text-center">Loading...</p>
+              ) : (
+                "Create account"
+              )}
             </button>
           </form>
         </div>
@@ -156,7 +155,7 @@ export const SignUp = () => {
           </div>
           <button className="text-white text-2xl leading-none">+</button>
         </div>
-      </div>      
+      </div>
 
       <Footer />
     </div>
