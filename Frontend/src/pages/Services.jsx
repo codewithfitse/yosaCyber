@@ -118,8 +118,10 @@ const Services = () => {
             <div className="w-[200px] h-[200px] bg-amber-100 rounded-full">
               <img src="cdl2.png" className="rounded-full" alt="" srcset="" />
             </div>
-            <h1 className="text-center">Our Fleet</h1>
-            <h2 className="w-[80%] text-center">
+            <h1 className="mt-3 text-center text-[20px] font-semibold">
+              Our Fleet
+            </h1>
+            <h2 className="w-[80%] my-3 text-center text-[20px] text-gray-300">
               Our fleet consists of modern and well-maintained vehicles ensuring
               reliability. efficiency and comfort for our drivers. Whether you
               are hauling across the country or navigating local routes, our
@@ -131,8 +133,10 @@ const Services = () => {
             <div className="w-[200px] h-[200px] bg-amber-100 rounded-full">
               <img src="cdl3.png" className="rounded-full" alt="" srcset="" />
             </div>
-            <h1 className="text-center">Technical Support</h1>
-            <h2 className="w-[80%] text-center">
+            <h1 className="mt-3 text-center text-[20px] font-semibold">
+              Technical Support
+            </h1>
+            <h2 className="w-[80%] my-3 text-center text-[20px] text-gray-300">
               We understand that reliable technical support is crucial for
               keeping our drivers on the road and our operations running
               smoothly. We are committed to providing prompt and efficient
