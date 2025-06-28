@@ -9,7 +9,7 @@ const Services = () => {
     <div className="w-full h-[100%] background text-amber-50">
       <Header />
 
-      <div className="w-full h-fit pb-7 pt-30 bg-[#121212]">
+      <div className="w-full h-fit pb-5 pt-30 mb-2 bg-[#121212]">
         <div className="w-full pt-5 pb-5">
           <h1 className="text-center font-semibold text-[20px] lg:text-[40px] H1">
             HONEY BEE XPRESS LLC IS LOOKING FOR CDL TRUCK DRIVERS!
@@ -91,8 +91,49 @@ const Services = () => {
         </div>
       </div>
 
-      <div className="w-full h-full">
-        
+      <div className="w-full h-full mt-5 bg-black">
+        <div className="p-5">
+          <h1 className="text-[40px] font-bold text-center H1">
+            What you get with honey bee xpress
+          </h1>
+        </div>
+        <div className="w-full h-full my-10 grid gap-5 lg:grid-cols-3 place-items-start">
+          <div className="flex flex-col justify-center items-center">
+            <div className="w-[200px] h-[200px] bg-amber-100 rounded-full"></div>
+            <h1 className="mt-3 text-center text-[20px] font-semibold">
+              Our Commitment
+            </h1>
+            <h2 className="w-[80%] my-3 text-center text-[20px] text-gray-300">
+              Our Commitment to excellence is what drives everything we do. We
+              are dedicated to providing our drivers with the best tools,
+              training and support to ensure their success and safety on the
+              road.
+            </h2>
+          </div>
+          <div className="flex flex-col justify-center items-center">
+            <div className="w-[200px] h-[200px] bg-amber-100 rounded-full"></div>
+            <h1 className="text-center">Our Fleet</h1>
+            <h2 className="text-center">
+              Our fleet consists of modern and well-maintained vehicles ensuring
+              reliability. efficiency and comfort for our drivers. Whether you
+              are hauling across the country or navigating local routes, our
+              fleet is designed to support your success on the road. Join us and
+              drive with the best in town.
+            </h2>
+          </div>
+          <div className="flex flex-col justify-center items-center">
+            <div className="w-[200px] h-[200px] bg-amber-100 rounded-full"></div>
+            <h1 className="text-center">Technical Support</h1>
+            <h2 className="text-center">
+              We understand that reliable technical support is crucial for
+              keeping our drivers on the road and our operations running
+              smoothly. We are committed to providing prompt and efficient
+              solutions, minimizing downtime and ensuring you have the resources
+              you need to stay on track.With Honey Bee Xpress, you can drive
+              with confidence knowing that expert help is just a call away
+            </h2>
+          </div>
+        </div>
       </div>
 
       <Footer />
