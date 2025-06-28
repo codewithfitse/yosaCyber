@@ -61,6 +61,9 @@ body {
   .card {
     @apply bg-white/3 backdrop-blur-[4px] rounded-4xl hover:shadow-[#16fe01] hover:shadow-2xl;
   }
+  .Button {
+    @apply w-fit px-6 py-3 mt-5 text-center text-black font-bold text-[20px] bg-red-500;
+  }
   .box {
     @apply bg-gradient-to-r from-emerald-500 to-emerald-900 rounded-[10px] hover:shadow-emerald-500/80 hover:shadow-lg hover:scale-102
   }
