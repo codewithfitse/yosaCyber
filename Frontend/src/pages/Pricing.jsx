@@ -9,8 +9,8 @@ const Pricing = () => {
   return (
     <div className="w-full h-full background text-amber-50">
       <Header />
-      <div className="w-full h-full pt-30 lg:mt-10 flex flex-col lg:flex-row bg-[#121212]">
-        <div className="w-full h-auto">
+      <div className="w-full h-full pt-30 lg:my-10 flex flex-col lg:flex-row gap-3 bg-[#121212]">
+        <div className="w-full h-full">
           <div className="w-full h-full">
             <img
               src="/pricing1.png"
@@ -20,7 +20,7 @@ const Pricing = () => {
             />
           </div>
         </div>
-        <div className="w-full h-fit py-15 pl-10 flex flex-col justify-center text-gray-300">
+        <div className="w-full h-fit py-10 pl-10 flex flex-col justify-center text-gray-300">
           <h1 className="font-bold text-[25px] text-white">
             WITH YOUR AUTHORITY
           </h1>
@@ -37,7 +37,7 @@ const Pricing = () => {
         </div>
       </div>
 
-      <div className="w-full h-full mb-10 pt-5 lg:mt-10 flex flex-col lg:flex-row bg-black">
+      <div className="w-full h-full mb-10 lg:mb-0 mt-5 lg:mt-10 flex flex-col lg:flex-row bg-black">
         <div className="w-full h-auto">
           <div className="w-full h-full">
             <img
@@ -48,7 +48,7 @@ const Pricing = () => {
             />
           </div>
         </div>
-        <div className="w-full h-fit pl-10 flex flex-col justify-center text-gray-300">
+        <div className="w-full h-full mb-10 py-10 lg:py-1 pl-10 flex flex-col justify-center text-gray-300">
           <h1 className="font-bold text-[25px] text-white">
             WITH YOUR AUTHORITY
           </h1>
