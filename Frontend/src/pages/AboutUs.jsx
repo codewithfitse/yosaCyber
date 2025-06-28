@@ -9,13 +9,28 @@ const AboutUs = () => {
     <div className="w-full h-fit background text-amber-50">
       <Header />
 
-      <div className="w-full h-[400px] flex">
-        <div className="w-full h-full pl-20 bg-amber-200">
-          <div className="w-full h-full bg-amber-100">
-            <img src="image1/png" className="w-full h-full" alt="" srcset="" />
+      <div className="w-full h-full pt-40 flex">
+        <div className="w-full h-auto pl-20 pr-10">
+          <div className="w-full h-full">
+            <img src="/image1.png" className="w-full h-fit" alt="" srcset="" />
           </div>
         </div>
-        <div className="w-full h-full bg-amber-400"></div>
+        <div className="w-full h-fit flex flex-col justify-center items-center text-gray-300">
+          <h1 className="text-3xl text-center text-white">Dry Van</h1>
+          <h1 className="px-8 text-[18px] text-center mt-3">
+            In the realm of transportation and logistics, the collaboration
+            between dry van carriers and shippers is crucial for the secure and
+            efficient delivery of goods to their destinations. At Honey Bee
+            Xpress, we recognize the complexities of the transportation industry
+            and stand ready to offer comprehensive assistance to both dry van
+            carriers and shippers. Our specialized dry van dispatch service is
+            crafted to streamline logistics, improve delivery processes, and
+            provide invaluable support to truck drivers everywhere.
+          </h1>
+          <button className="w-fit p-5 mt-3 text-center bg-red-500">
+            Submit
+          </button>
+        </div>
       </div>
 
       <div className="pt-[100px] lg:pt-[150px] flex flex-col items-center">
