@@ -6,12 +6,12 @@ const Header = () => {
   const [toggle, setToggle] = useState(false);
   return (
     <div className="w-full lg:w-full h-auto justify-between items-center text-white-500 fixed z-1 container">
-      <div className="w-full h-[40px] p-2 bg-yellow-200">
+      <div className="w-full h-[40px] p-2 bg-red-500">
         <h1 className="text-center text-black">
           Ask about our introductory rate
         </h1>
       </div>
-      <div className="w-full h-fit py-2 px-5 flex justify-between items-center bg-gray-400 relative">
+      <div className="w-full h-fit py-2 px-5 flex justify-between items-center bg-gray-950 relative">
         <div className="pl-2 lg:pl-6 flex items-center">
           <img
             src="Logo1.PNG"
