@@ -9,9 +9,74 @@ const Home = () => {
     <>
       <div className="w-full overflow-hidden h-full text-amber-50">
         <Header />
-        <div className="w-full h-full background backdrop-blur-2xl">
-          <div className="w-full h-full bg-white/5 backdrop-blur-[1px]">
-            <h1 className="text-[20px] text-black">ggdfghjkls</h1>
+        <div className="w-full h-full mt-30 background backdrop-blur-2xl">
+          <div className="w-full h-full pl-20 pt-50 bg-white/5 backdrop-blur-[1px]">
+            <h1 className="text-[50px] font-bold text-white">
+              Unlock efficiency, unleash potential!
+            </h1>
+            <ul className="w-[80%] pl-5 list-disc list-inside text-[25px] font-bold text-white space-y-1">
+              <li>Transprent pricing</li>
+              <li>Dedicated support</li>
+              <li>Competitive pay</li>
+            </ul>
+            <button className="Button">Contact us</button>
+          </div>
+        </div>
+
+        <div className=" w-full h-full flex flex-col items-center">
+          <h1 className="py-7 text-[40px] font-bold H1">
+            About honeybee xpress
+          </h1>
+          <div className="w-full h-full mt-40 lg:mt-5 flex flex-col items-center lg:flex-row">
+            <div className="w-full h-auto lg:pl-20 lg:pr-10">
+              <div className="w-full h-full">
+                <img
+                  src="/image2.png"
+                  className="w-full h-fit"
+                  alt=""
+                  srcset=""
+                />
+              </div>
+            </div>
+            <div className="w-full h-fit flex flex-col justify-center items-center text-gray-300">
+              <h1 className="text-3xl text-center text-white">Our Mission</h1>
+              <h1 className="px-8 text-[18px] text-center mt-3">
+                At Honey Bee Xpress, our mission is clear: We're dedicated to
+                empowering businesses of all sizes with seamless solutions that
+                optimize efficiency and ensure unparalleled customer
+                satisfaction. With a relentless commitment to innovation and
+                excellence, we streamline operations, enhance productivity, and
+                transform logistical challenges into opportunities for growth.
+              </h1>
+            </div>
+          </div>
+          <div className="w-full h-full pt-15 lg:mt-5 flex flex-col items-center lg:flex-row">
+            <div className="w-full h-fit flex flex-col justify-center items-center text-gray-300">
+              <h1 className="text-3xl text-center text-white">
+                Our Commitment
+              </h1>
+              <h1 className="px-8 text-[18px] text-center mt-3">
+                At the heart of every successful delivery lies the commitment of
+                our devoted truck drivers. We deeply value their hard work and
+                dedication, striving to simplify their tasks. Our dispatchers
+                are available round the clock, offering unwavering support
+                whenever needed. From meticulous route planning to efficient
+                load optimization, we're here to assist every step of the way.
+                Whether you're an independent owner-operator or part of a larger
+                freight company, our services are tailored to suit your specific
+                needs.
+              </h1>
+            </div>
+            <div className="w-full h-auto lg:pl-20 lg:pr-10">
+              <div className="w-full h-full">
+                <img
+                  src="/comitement.jpg"
+                  className="w-full h-fit"
+                  alt=""
+                  srcset=""
+                />
+              </div>
+            </div>
           </div>
         </div>
 
