@@ -10,7 +10,7 @@ const Header = () => {
   }
 
   return (
-    <div className="w-full lg:w-full h-auto justify-between items-center text-white-500 fixed container">
+    <div className="w-full lg:w-full h-auto justify-between items-center text-white-500 z-10 fixed container">
       <div className="w-full h-[40px] p-2 bg-red-500">
         <h1 className="text-center text-black">
           Ask about our introductory rate
@@ -44,7 +44,7 @@ const Header = () => {
             </h1>
           </Link>
           {toggle ? (
-            <div className="w-fit h-fit flex absolute top-8 right-0 z-10 bg-[#121212] space-x-2">
+            <div className="w-fit h-fit flex absolute top-8 right-0 z-20 bg-[#121212] space-x-2">
               <Link to="/Contact">
                 <h1
                   className="hover:text-red-600 text-[20px]"
