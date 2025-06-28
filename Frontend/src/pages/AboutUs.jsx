@@ -9,9 +9,9 @@ const AboutUs = () => {
     <div className="w-full h-fit background text-amber-50">
       <Header />
 
-      <div className="w-full h-full pt-40 flex flex-col">
-        <div className="w-full h-full flex">
-          <div className="w-full h-auto pl-20 pr-10">
+      <div className="w-full h-full lg:pt-40 flex flex-col">
+        <div className="w-full h-full mt-40 lg:mt-5 flex flex-col lg:flex-row">
+          <div className="w-full h-auto lg:pl-20 lg:pr-10">
             <div className="w-full h-full">
               <img
                 src="/image2.png"
@@ -32,13 +32,11 @@ const AboutUs = () => {
               conditions. At Honey Bee Xpress we have extensive knowledge in
               navigating this so you can focus on what you do best
             </h1>
-            <button className="w-fit p-5 mt-5 text-center bg-red-500">
-              Submit
-            </button>
+            <button className="Button">Submit</button>
           </div>
         </div>
 
-        <div className="w-full h-full mt-15 flex">
+        <div className="w-full h-full lg:mt-2 mt-10 flex flex-col lg:flex-row">
           <div className="w-full h-fit flex flex-col justify-center items-center text-gray-300">
             <h1 className="text-3xl text-center text-white">Reffer</h1>
             <h1 className="px-8 text-[18px] text-center mt-3">
@@ -52,14 +50,12 @@ const AboutUs = () => {
               processes, and provide invaluable support to truck drivers
               everywhere.
             </h1>
-            <button className="w-fit p-5 mt-5 text-center bg-red-500">
-              Submit
-            </button>
+            <button className="Button">Submit</button>
           </div>
-          <div className="w-full h-auto pl-20 pr-10">
+          <div className="w-full h-auto lg:pl-20 lg:pr-10">
             <div className="w-full h-full">
               <img
-                src="/image1.png"
+                src="/image2.png"
                 className="w-full h-fit"
                 alt=""
                 srcset=""
@@ -68,8 +64,8 @@ const AboutUs = () => {
           </div>
         </div>
 
-        <div className="w-full h-full flex mt-15">
-          <div className="w-full h-auto pl-20 pr-10">
+        <div className="w-full h-full mt-40 lg:mt-10 flex flex-col lg:flex-row">
+          <div className="w-full h-auto lg:pl-20 lg:pr-10">
             <div className="w-full h-full">
               <img
                 src="/image3.png"
@@ -89,15 +85,16 @@ const AboutUs = () => {
               delivery of such freight, offering invaluable support to shippers
               and carriers alike.
             </h1>
-            <button className="w-fit p-5 mt-5 text-center bg-red-500">
-              Submit
-            </button>
+            <button className="Button">Submit</button>
           </div>
         </div>
 
-        <div className="w-full h-full mt-15 flex">
+        <div
+          className="w-full h-full lg:mt-2 lg:p
+        b-10 mt-10 flex flex-col lg:flex-row"
+        >
           <div className="w-full h-fit flex flex-col justify-center items-center text-gray-300">
-            <h1 className="text-3xl text-center text-white">Dry Van</h1>
+            <h1 className="text-3xl text-center text-white">Box Truck</h1>
             <h1 className="px-8 text-[18px] text-center mt-3">
               success depends on finding profitable hauls, planning trips well,
               and staying on top of paperwork. For many small and medium-sized
@@ -105,11 +102,9 @@ const AboutUs = () => {
               That’s why Honey Bee Xpress's dispatch service could be a smart
               move for boosting profits and making things smoother.
             </h1>
-            <button className="w-fit p-5 mt-5 text-center bg-red-500">
-              Submit
-            </button>
+            <button className="Button">Submit</button>
           </div>
-          <div className="w-full h-auto pl-20 pr-10">
+          <div className="w-full h-auto lg:pl-20 lg:pr-10">
             <div className="w-full h-full">
               <img
                 src="/image4.png"
