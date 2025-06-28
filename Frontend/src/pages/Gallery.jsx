@@ -57,37 +57,44 @@ export const Gallery = () => {
         </div>
         <div className="w-full h-full">
           <img
-            src="/hero.jpg"
+            src="/gallery1.jpg"
             alt="hero"
             className="transition-transform duration-500 delay-200 hover:scale-105"
           />
         </div>
         <div className="w-full h-full">
           <img
-            src="/hero.jpg"
+            src="/gallery2.jpg"
             alt="hero"
             className="transition-transform duration-500 delay-200 hover:scale-105"
           />
         </div>
         <div className="w-full h-full">
           <img
-            src="/hero.jpg"
+            src="/gallery3.jpg"
             alt="hero"
             className="transition-transform duration-500 delay-200 hover:scale-105"
           />
         </div>
         <div className="w-full h-full">
           <img
-            src="/hero.jpg"
+            src="/gallery4.jpg"
             alt="hero"
             className="transition-transform duration-500 delay-200 hover:scale-105"
           />
         </div>
         <div className="w-full h-full">
           <img
-            src="/hero.jpg"
+            src="/gallery5.jpg"
             alt="hero"
-            className="transition-transform duration-500 delay-200 hover:scale-105"
+            className="h-full transition-transform duration-500 delay-200 hover:scale-105"
+          />
+        </div>
+        <div className="w-full h-full">
+          <img
+            src="/cdl2.png"
+            alt="hero"
+            className="w-full transition-transform duration-500 delay-200 hover:scale-105"
           />
         </div>
       </div>
