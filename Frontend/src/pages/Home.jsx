@@ -14,7 +14,7 @@ const Home = () => {
           <div className="w-full pt-5 pb-5">
             <h1 className="text-center font-bold text-[40px] H1">Contact US</h1>
           </div>
-          <div className="w-full h-full flex">
+          <div className="w-full h-full flex flex-col lg:flex-row">
             <div className="w-full h-full">
               <div className="w-full h-full flex flex-col space-y-5 pl-20 pr-2">
                 <h1 className="text-[25px]">Drop us a line!</h1>
