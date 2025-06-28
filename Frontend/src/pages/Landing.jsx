@@ -4,7 +4,7 @@ import { Button } from "../components/Button";
 
 export const Landing = () => {
   return (
-    <div className="w-full h-auto overflow-hidden relative">
+    <div className="w-full h-auto overflow-x-hidden relative">
       <div
         className="h-screen pt-2 pl-5 lg:pl-15 text-[25px] text-white font-serif lg:text-6xl/15 font-bold backdrop-blur-[5px] 
       "
