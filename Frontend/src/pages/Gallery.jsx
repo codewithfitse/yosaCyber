@@ -47,55 +47,25 @@ export const Gallery = () => {
     <div className="w-full h-[100%] text-amber-50 overflow-x-hidden">
       <Header />
 
-      <div className="w-full h-full mt-30 grid lg:grid-cols-3">
-        <div className="w-full h-full">
-          <img
-            src="/hero.jpg"
-            alt="hero"
-            className="transition-transform duration-500 delay-200 hover:scale-105"
-          />
-        </div>
-        <div className="w-full h-full">
-          <img
-            src="/gallery1.jpg"
-            alt="hero"
-            className="transition-transform duration-500 delay-200 hover:scale-105"
-          />
-        </div>
-        <div className="w-full h-full">
-          <img
-            src="/gallery2.jpg"
-            alt="hero"
-            className="transition-transform duration-500 delay-200 hover:scale-105"
-          />
-        </div>
-        <div className="w-full h-full">
-          <img
-            src="/gallery3.jpg"
-            alt="hero"
-            className="transition-transform duration-500 delay-200 hover:scale-105"
-          />
-        </div>
-        <div className="w-full h-full">
-          <img
-            src="/gallery4.jpg"
-            alt="hero"
-            className="transition-transform duration-500 delay-200 hover:scale-105"
-          />
-        </div>
-        <div className="w-full h-full">
-          <img
-            src="/gallery5.jpg"
-            alt="hero"
-            className="h-full transition-transform duration-500 delay-200 hover:scale-105"
-          />
-        </div>
-        <div className="w-full h-full">
-          <img
-            src="/cdl2.png"
-            alt="hero"
-            className="w-full transition-transform duration-500 delay-200 hover:scale-105"
-          />
+      <div className="w-full h-full mt-30">
+        <div className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-4">
+          {[
+            "/hero.jpg",
+            "/gallery1.jpg",
+            "/gallery2.jpg",
+            "/gallery3.jpg",
+            "/gallery4.jpg",
+            "/gallery5.jpg",
+            "/cdl2.png",
+          ].map((src, idx) => (
+            <div key={idx} className="w-full overflow-hidden rounded-lg">
+              <img
+                src={src}
+                alt={`gallery-${idx}`}
+                className="w-full h-auto object-cover rounded-lg transition-transform duration-500 hover:scale-105"
+              />
+            </div>
+          ))}
         </div>
       </div>
 
