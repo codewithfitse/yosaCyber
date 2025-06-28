@@ -12,7 +12,7 @@ const Services = () => {
       <div className="w-full h-fit pb-5 pt-30 mb-2 bg-[#121212]">
         <div className="w-full pt-5 pb-5">
           <h1 className="text-center font-semibold text-[20px] lg:text-[40px] H1">
-            HONEY BEE XPRESS LLC IS LOOKING FOR CDL TRUCK DRIVERS!
+            Dawit Freighters LLC IS LOOKING FOR CDL TRUCK DRIVERS!
           </h1>
         </div>
         <div className="w-full h-full flex flex-col lg:flex-row">
@@ -50,7 +50,9 @@ const Services = () => {
           <div className="w-full h-full pt-10 lg:pt-1">
             <div className="flex flex-col space-y-3 pl-10">
               <div className="text-gray-400">
-                <h1 className="font-bold text-[25px]">Why join Honey Bee?</h1>
+                <h1 className="font-bold text-[25px]">
+                  Why join Dawit Freighters?
+                </h1>
                 <ul className="w-[80%] pl-5 list-disc list-inside text-[20px] text-white space-y-1">
                   <li>Constant routes nationwide</li>
                   <li>Guaranteed stream of income</li>
@@ -94,7 +96,7 @@ const Services = () => {
       <div className="w-full h-full mt-5 bg-black">
         <div className="p-5">
           <h1 className="text-[40px] font-bold text-center H1">
-            What you get with honey bee xpress
+            What you get with Dawit Freighters
           </h1>
         </div>
         <div className="w-full h-full my-10 grid gap-7 lg:grid-cols-3 place-items-start">
@@ -135,7 +137,7 @@ const Services = () => {
               keeping our drivers on the road and our operations running
               smoothly. We are committed to providing prompt and efficient
               solutions, minimizing downtime and ensuring you have the resources
-              you need to stay on track.With Honey Bee Xpress, you can drive
+              you need to stay on track.With Dawit Freighters, you can drive
               with confidence knowing that expert help is just a call away
             </h2>
           </div>
