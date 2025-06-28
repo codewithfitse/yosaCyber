@@ -27,7 +27,7 @@ const Contact = () => {
   }
 
   return (
-    <div className="w-full h-[100%] background text-amber-50 overflow-x-hidden">
+    <div className="w-full h-[100%] landingBg text-gray-900 overflow-x-hidden">
       <Header />
 
       <div className="py-[100px] px-5 lg:px-[200px]">
