@@ -15,12 +15,12 @@ const Header = () => {
         <div className="pl-2 lg:pl-6 flex items-center">
           <img
             src="Logo1.PNG"
-            className="w-24 lg:w-15 h-fit"
+            className="w-10 lg:w-15 h-fit"
             alt="Logo"
             srcSet=""
           />
         </div>
-        <div className="w-fit px-3 flex gap-3 justify-center text-[15px] lg:text-[20px] font-bold">
+        <div className="w-fit px-3 flex gap-1 lg:gap-3 justify-center text-[10px] lg:text-[20px] font-bold">
           <Link to="/Home">
             <h1 className="hover:text-red-600">Home</h1>
           </Link>
