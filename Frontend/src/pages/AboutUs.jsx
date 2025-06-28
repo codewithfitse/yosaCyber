@@ -9,6 +9,13 @@ const AboutUs = () => {
     <div className="w-full h-fit background text-amber-50">
       <Header />
 
+      <div className="w-full h-[400px] flex">
+        <div className="w-full h-full pl-20 bg-amber-200">
+          <div className="w-full h-full bg-amber-100"></div>
+        </div>
+        <div className="w-full h-full bg-amber-400"></div>
+      </div>
+
       <div className="pt-[100px] lg:pt-[150px] flex flex-col items-center">
         <h1 className="text-[25px] lg:text-[40px] text-center font-bold">
           We are{" "}
@@ -36,99 +43,6 @@ const AboutUs = () => {
           <Link to={"/Contact"}>
             <Button text={"Work With Us"} />
           </Link>
-        </div>
-      </div>
-
-      <div className="mt-[100px] flex flex-col lg:flex-row lg:justify-center lg:items-center">
-        <div className="w-full lg:w-[30%] mb-5 lg:mb-0">
-          <div className="w-full h-full px-6">
-            <img
-              src="Abel.jpg"
-              className="w-full h-auto rounded-[15px]"
-              alt=""
-            />
-          </div>
-        </div>
-        <div className="w-full lg:w-[70%]">
-          <h1 className="text-[12px] lg:text-[22px]  pl-10 pr-1.5">
-            <span className="text-[20px] lg:text-[40px] text-[#16fe01] font-bold ">
-              We
-            </span>{" "}
-            understand choosing rental services might be difficult and time
-            consuming task. At TIME Rental we always try to make it easier
-            by providing detailed information.
-          </h1>
-          <div className="mt-10 grid lg:grid-cols-2 gap-2">
-            <div className="w-full h-[200px] pl-5 flex items-center space-x-5 card">
-              <div className="p-3 flex items-center bg-[#16fe01] rounded-full">
-                <img
-                  src="Icons/car.png"
-                  className="w-10 h-10"
-                  alt=""
-                  srcset=""
-                />
-              </div>
-              <div className="w-[70%] flex flex-col justify-center">
-                <h1 className="text-[30px] font-bold">Lowest price</h1>
-                <p>
-                  We promise to give you the lowest price rate in town for the
-                  car you choose.
-                </p>
-              </div>
-            </div>
-            <div className="w-full h-[200px] pl-5 flex items-center space-x-5 card">
-              <div className="p-3 flex items-center bg-[#16fe01] rounded-full">
-                <img
-                  src="Icons/car.png"
-                  className="w-10 h-10"
-                  alt=""
-                  srcset=""
-                />
-              </div>
-              <div className="w-[70%] flex flex-col justify-center">
-                <h1 className="text-[30px] font-bold">We love serving</h1>
-                <p className="w-[95%]">
-                  We want you to be a happy customer. With us it is not a one
-                  time deal.
-                </p>
-              </div>
-            </div>
-            <div className="w-full h-[250px] pl-5 flex items-center space-x-5 card">
-              <div className="p-3 flex items-center bg-[#16fe01] rounded-full">
-                <img
-                  src="Icons/car.png"
-                  className="w-10 h-10"
-                  alt=""
-                  srcset=""
-                />
-              </div>
-              <div className="w-[70%] flex flex-col justify-center">
-                <h1 className="text-[30px] font-bold">Professional</h1>
-                <p>
-                  Our friendly and knowledgeable staff will give you a tour with
-                  all the information to make your visit of Addis Ababa and
-                  other parts of Ethiopia a memorable experience.
-                </p>
-              </div>
-            </div>
-            <div className="w-full h-[250px] pl-5 flex items-center space-x-5 card">
-              <div className="p-3 flex items-center bg-[#16fe01] rounded-full">
-                <img
-                  src="Icons/car.png"
-                  className="w-10 h-10"
-                  alt=""
-                  srcset=""
-                />
-              </div>
-              <div className="w-[70%] flex flex-col justify-center">
-                <h1 className="text-[30px] font-bold">Lowest price</h1>
-                <p>
-                  We promise to give you the lowest price rate in town for the
-                  car you choose.
-                </p>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
 
