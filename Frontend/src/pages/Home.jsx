@@ -46,7 +46,7 @@ const Home = () => {
             </div>
             <div className="w-full h-full pt-10 lg:pt-1">
               <div className="pl-10">
-                <h1 className="font-bold text-[40px] H1">Honey Bee Xpress</h1>
+                <h1 className="font-bold text-[40px] H1">Dawit Freighters</h1>
                 <h1 className="font-bold text-[40px] H1">Business Hours</h1>
                 <div className="mt-3">
                   <h1 className="text-[15px]">Mon 06:00 am – 06:00 pm</h1>
