@@ -97,7 +97,7 @@ const Services = () => {
             What you get with honey bee xpress
           </h1>
         </div>
-        <div className="w-full h-full my-10 grid gap-5 lg:grid-cols-3 place-items-start">
+        <div className="w-full h-full my-10 grid gap-7 lg:grid-cols-3 place-items-start">
           <div className="flex flex-col justify-center items-center">
             <div className="w-[200px] h-[200px] bg-amber-100 rounded-full">
               <img src="cdl1.png" className="rounded-full" alt="" srcset="" />
@@ -117,7 +117,7 @@ const Services = () => {
               <img src="cdl2.png" className="rounded-full" alt="" srcset="" />
             </div>
             <h1 className="text-center">Our Fleet</h1>
-            <h2 className="text-center">
+            <h2 className="w-[80%] text-center">
               Our fleet consists of modern and well-maintained vehicles ensuring
               reliability. efficiency and comfort for our drivers. Whether you
               are hauling across the country or navigating local routes, our
@@ -130,7 +130,7 @@ const Services = () => {
               <img src="cdl3.png" className="rounded-full" alt="" srcset="" />
             </div>
             <h1 className="text-center">Technical Support</h1>
-            <h2 className="text-center">
+            <h2 className="w-[80%] text-center">
               We understand that reliable technical support is crucial for
               keeping our drivers on the road and our operations running
               smoothly. We are committed to providing prompt and efficient
