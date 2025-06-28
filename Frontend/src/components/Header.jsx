@@ -22,19 +22,19 @@ const Header = () => {
         </div>
         <div className="w-fit px-3 flex gap-3 justify-center text-[15px] lg:text-[20px] font-bold">
           <Link to="/Home">
-            <h1 className="hover:text-[#16fe01]">Home</h1>
+            <h1 className="hover:text-red-600">Home</h1>
+          </Link>
+          <Link to="/AboutUs">
+            <h1 className="hover:text-red-600">Dispatching Services</h1>
           </Link>
           <Link to="">
-            <h1 className="hover:text-[#16fe01]">Dispatching Services</h1>
+            <h1 className="hover:text-red-600">CDL Drivers</h1>
           </Link>
           <Link to="">
-            <h1 className="hover:text-[#16fe01]">CDL Drivers</h1>
+            <h1 className="hover:text-red-600">Pricing</h1>
           </Link>
           <Link to="">
-            <h1 className="hover:text-[#16fe01]">Pricing</h1>
-          </Link>
-          <Link to="">
-            <h1 className="hover:text-[#16fe01]">More</h1>
+            <h1 className="hover:text-red-600">More</h1>
           </Link>
         </div>
       </div>

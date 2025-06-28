@@ -7,7 +7,7 @@ import { Button } from "../components/Button";
 const Home = () => {
   return (
     <>
-      <div className="w-full overflow-x-hidden h-[100%] background text-amber-50">
+      <div className="w-full overflow-hidden h-[100%] background text-amber-50">
         <Header />
 
         <div className="w-full h-[500px] mt-30 bg-[#121212]">
