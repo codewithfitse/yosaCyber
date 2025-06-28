@@ -12,7 +12,12 @@ const Pricing = () => {
       <div className="w-full h-full pt-30 lg:mt-10 flex flex-col lg:flex-row bg-[#121212]">
         <div className="w-full h-auto">
           <div className="w-full h-full">
-            <img src="/image3.png" className="w-full h-full" alt="" srcset="" />
+            <img
+              src="/pricing1.png"
+              className="w-full h-full"
+              alt=""
+              srcset=""
+            />
           </div>
         </div>
         <div className="w-full h-fit py-15 pl-10 flex flex-col justify-center text-gray-300">
@@ -35,7 +40,12 @@ const Pricing = () => {
       <div className="w-full h-full mb-10 pt-5 lg:mt-10 flex flex-col lg:flex-row bg-black">
         <div className="w-full h-auto">
           <div className="w-full h-full">
-            <img src="/image3.png" className="w-full h-fit" alt="" srcset="" />
+            <img
+              src="/pricing2.png"
+              className="w-full h-fit"
+              alt=""
+              srcset=""
+            />
           </div>
         </div>
         <div className="w-full h-fit pl-10 flex flex-col justify-center text-gray-300">
