@@ -99,7 +99,9 @@ const Services = () => {
         </div>
         <div className="w-full h-full my-10 grid gap-5 lg:grid-cols-3 place-items-start">
           <div className="flex flex-col justify-center items-center">
-            <div className="w-[200px] h-[200px] bg-amber-100 rounded-full"></div>
+            <div className="w-[200px] h-[200px] bg-amber-100 rounded-full">
+              <img src="cdl1.png" className="rounded-full" alt="" srcset="" />
+            </div>
             <h1 className="mt-3 text-center text-[20px] font-semibold">
               Our Commitment
             </h1>
@@ -111,7 +113,9 @@ const Services = () => {
             </h2>
           </div>
           <div className="flex flex-col justify-center items-center">
-            <div className="w-[200px] h-[200px] bg-amber-100 rounded-full"></div>
+            <div className="w-[200px] h-[200px] bg-amber-100 rounded-full">
+              <img src="cdl2.png" className="rounded-full" alt="" srcset="" />
+            </div>
             <h1 className="text-center">Our Fleet</h1>
             <h2 className="text-center">
               Our fleet consists of modern and well-maintained vehicles ensuring
@@ -122,7 +126,9 @@ const Services = () => {
             </h2>
           </div>
           <div className="flex flex-col justify-center items-center">
-            <div className="w-[200px] h-[200px] bg-amber-100 rounded-full"></div>
+            <div className="w-[200px] h-[200px] bg-amber-100 rounded-full">
+              <img src="cdl3.png" className="rounded-full" alt="" srcset="" />
+            </div>
             <h1 className="text-center">Technical Support</h1>
             <h2 className="text-center">
               We understand that reliable technical support is crucial for
