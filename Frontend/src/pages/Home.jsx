@@ -10,11 +10,11 @@ const Home = () => {
       <div className="w-full overflow-hidden h-full text-amber-50">
         <Header />
         <div className="w-full h-full mt-30 background backdrop-blur-2xl">
-          <div className="w-full h-full pl-20 pt-50 bg-white/5 backdrop-blur-[1px]">
-            <h1 className="text-[50px] font-bold text-white">
+          <div className="w-full h-full pl-5 lg:pl-20 pt-50 bg-white/5 backdrop-blur-[1px]">
+            <h1 className="text-[20px]  lg:text-[50px] font-bold text-white">
               Unlock efficiency, unleash potential!
             </h1>
-            <ul className="w-[80%] pl-5 list-disc list-inside text-[25px] font-bold text-white space-y-1">
+            <ul className="w-[80%] pl-2 lg:pl-5 list-disc list-inside text-[15px] lg:text-[25px] font-bold text-white space-y-1">
               <li>Transprent pricing</li>
               <li>Dedicated support</li>
               <li>Competitive pay</li>
