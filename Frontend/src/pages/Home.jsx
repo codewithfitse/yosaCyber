@@ -7,10 +7,10 @@ import { Button } from "../components/Button";
 const Home = () => {
   return (
     <>
-      <div className="w-full overflow-hidden h-[100%] background text-amber-50">
+      <div className="w-full overflow-hidden h-full background text-amber-50">
         <Header />
 
-        <div className="w-full h-[500px] mt-30 bg-[#121212]">
+        <div className="w-full h-fit pb-5 mt-30 mb-2 bg-[#121212]">
           <div className="w-full pt-5 pb-5">
             <h1 className="text-center font-bold text-[40px] H1">Contact US</h1>
           </div>
@@ -33,6 +33,9 @@ const Home = () => {
                   className="w-full p-10 bg-black rounded-[5px] pl-2 placeholder:pl-2"
                   placeholder="Message"
                 />
+                <button className="w-full p-5 bg-black rounded-[5px] pl-2">
+                  Submit
+                </button>
 
                 <h1 className="w-auto text-center text-[14px]">
                   This site is protected by reCAPTCHA and the Google{" "}
