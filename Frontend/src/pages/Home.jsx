@@ -16,7 +16,7 @@ const Home = () => {
           </div>
           <div className="w-full h-full flex flex-col lg:flex-row">
             <div className="w-full h-full">
-              <div className="w-full h-full flex flex-col space-y-5 pl-20 pr-2">
+              <div className="w-full h-full flex flex-col space-y-5 pl-5 lg:pl-20 pr-2">
                 <h1 className="text-[25px]">Drop us a line!</h1>
                 <input
                   type="text"
@@ -44,7 +44,7 @@ const Home = () => {
                 </h1>
               </div>
             </div>
-            <div className="w-full h-full">
+            <div className="w-full h-full pt-10 lg:pt-1">
               <div className="pl-10">
                 <h1 className="font-bold text-[40px] H1">Honey Bee Xpress</h1>
                 <h1 className="font-bold text-[40px] H1">Business Hours</h1>
