@@ -4,6 +4,11 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   const [toggle, setToggle] = useState(false);
+
+  function handleToggle() {
+    setToggle(!toggle);
+  }
+
   return (
     <div className="w-full lg:w-full h-auto justify-between items-center text-white-500 fixed z-1 container">
       <div className="w-full h-[40px] p-2 bg-red-500">
@@ -20,7 +25,7 @@ const Header = () => {
             srcSet=""
           />
         </div>
-        <div className="w-fit px-3 flex gap-1 lg:gap-3 justify-center text-[10px] lg:text-[20px] font-bold">
+        <div className="w-fit px-3 flex gap-1 lg:gap-3 justify-center text-[10px] lg:text-[20px] relative font-bold">
           <Link to="/Home">
             <h1 className="hover:text-red-600">Home</h1>
           </Link>
@@ -34,8 +39,24 @@ const Header = () => {
             <h1 className="hover:text-red-600">Pricing</h1>
           </Link>
           <Link to="">
-            <h1 className="hover:text-red-600">More</h1>
+            <h1 className="hover:text-red-600" onClick={handleToggle}>
+              More
+            </h1>
           </Link>
+          {toggle ? (
+            <div className="absolute top-2 right-10 bg-amber-200">
+              <Link to="">
+                <h1
+                  className="hover:text-red-600 text-3xl"
+                  onClick={handleToggle}
+                >
+                  Contact us
+                </h1>
+              </Link>
+            </div>
+          ) : (
+            " "
+          )}
         </div>
       </div>
     </div>

@@ -10,10 +10,10 @@ body {
 
 .background {
   width: 100%;
-  height: auto;
-  background-image: url(../public/bg.png);
+  background-image: url(../public/comitement.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-clip: border-box;
   background-position: center;
 }
 

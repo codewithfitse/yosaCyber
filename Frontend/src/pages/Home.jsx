@@ -10,6 +10,10 @@ const Home = () => {
       <div className="w-full overflow-hidden h-full background text-amber-50">
         <Header />
 
+        <div className="w-full h-[600px] p-6 background">
+          <h1>ggs</h1>
+        </div>
+
         <div className="w-full h-fit pb-5 mt-30 mb-2 bg-[#121212]">
           <div className="w-full pt-5 pb-5">
             <h1 className="text-center font-bold text-[40px] H1">Contact US</h1>
