@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useState } from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import axios from "axios";
@@ -27,7 +27,7 @@ const Contact = () => {
   }
 
   return (
-    <div className="w-full h-[100%] landingBg text-gray-900 overflow-x-hidden">
+    <div className="w-full min-h-screen landingBg text-gray-900 overflow-x-hidden">
       <Header />
 
       <div className="py-[100px] mt-10 px-5 lg:px-[200px]">

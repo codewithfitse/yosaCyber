@@ -25,7 +25,7 @@ const Header = () => {
             srcSet=""
           />
         </div>
-        <div className="w-fit px-3 flex gap-1 lg:gap-3 justify-center text-[10px] lg:text-[20px] relative font-bold">
+        <div className="w-fit px-3 flex gap-1 lg:gap-3 justify-center text-white text-[10px] lg:text-[20px] relative font-bold">
           <Link to="/Home">
             <h1 className="hover:text-red-600 active:text-amber-200">Home</h1>
           </Link>
