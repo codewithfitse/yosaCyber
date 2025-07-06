@@ -117,7 +117,12 @@ const Drivers = () => {
             </div>
             <div className="flex flex-col justify-center items-center">
               <div className="w-[200px] h-[200px] bg-amber-100 rounded-full">
-                <img src="cdl2.png" className="rounded-full" alt="" srcSet="" />
+                <img
+                  src="cdl2.png"
+                  className="rounded-full "
+                  alt=""
+                  srcSet=""
+                />
               </div>
               <h1 className="mt-3 text-center text-[20px] font-semibold">
                 Our Fleet
