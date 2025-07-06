@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 import { Link } from "react-router";
 import { Button } from "../components/Button";
 
-const Services = () => {
+const Drivers = () => {
   return (
     <div className="w-full min-h-screen overflow-x-hidden text-amber-50">
       <Header />
@@ -156,4 +156,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default Drivers;

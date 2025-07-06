@@ -29,10 +29,10 @@ const Header = () => {
           <Link to="/Home">
             <h1 className="hover:text-red-600 active:text-amber-200">Home</h1>
           </Link>
-          <Link to="/AboutUs">
+          <Link to="/Service">
             <h1 className="hover:text-red-600">Dispatching Services</h1>
           </Link>
-          <Link to="/Services">
+          <Link to="/Drivers">
             <h1 className="hover:text-red-600">CDL Drivers</h1>
           </Link>
           <Link to="/Pricing">

@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
 import { Button } from "../components/Button";
 
-const AboutUs = () => {
+const Service = () => {
   return (
     <div className="w-full h-fit text-amber-50">
       <Header />
@@ -119,4 +119,4 @@ const AboutUs = () => {
   );
 };
 
-export default AboutUs;
+export default Service;

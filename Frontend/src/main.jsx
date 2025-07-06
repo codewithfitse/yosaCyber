@@ -4,10 +4,10 @@ import "./index.css";
 import App from "./App.jsx";
 import { Routes, createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./pages/Home";
-import AboutUs from "./pages/AboutUs.jsx";
+import Service from "./pages/Service.jsx";
 import NotFound from "./pages/404.jsx";
 import Pricing from "./pages/Pricing.jsx";
-import Services from "./pages/Services.jsx";
+import Drivers from "./pages/Drivers.jsx";
 import Contact from "./pages/Contact.jsx";
 import { Landing } from "./pages/Landing.jsx";
 import { Gallery } from "./pages/Gallery.jsx";
@@ -24,16 +24,16 @@ const router = createBrowserRouter([
     element: <Home />,
   },
   {
-    path: "/AboutUS",
-    element: <AboutUs />,
+    path: "/Service",
+    element: <Service />,
   },
   {
     path: "/Pricing",
     element: <Pricing />,
   },
   {
-    path: "/Services",
-    element: <Services />,
+    path: "/Drivers",
+    element: <Drivers />,
   },
   {
     path: "/Contact",
