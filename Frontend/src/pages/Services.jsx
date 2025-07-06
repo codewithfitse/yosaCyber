@@ -6,7 +6,7 @@ import { Button } from "../components/Button";
 
 const Services = () => {
   return (
-    <div className="w-full min-h-screen background text-amber-50">
+    <div className="w-full min-h-screen overflow-x-hidden text-amber-50">
       <Header />
 
       <div className="">
