@@ -7,7 +7,7 @@ import axios from "axios";
 
 const Pricing = () => {
   return (
-    <div className="w-full h-full background text-amber-50">
+    <div className="w-full min-h-screen overflow-x-hidden text-amber-50">
       <Header />
       <div className="w-full h-full pt-30 lg:my-10 flex flex-col lg:flex-row gap-3 bg-[#121212]">
         <div className="w-full h-full">
