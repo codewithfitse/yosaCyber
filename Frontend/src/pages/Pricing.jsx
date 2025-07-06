@@ -16,7 +16,7 @@ const Pricing = () => {
               src="/pricing1.png"
               className="w-full h-full"
               alt=""
-              srcset=""
+              srcSet=""
             />
           </div>
         </div>
@@ -44,7 +44,7 @@ const Pricing = () => {
               src="/pricing2.png"
               className="w-full h-fit"
               alt=""
-              srcset=""
+              srcSet=""
             />
           </div>
         </div>

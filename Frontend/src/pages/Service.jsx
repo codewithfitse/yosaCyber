@@ -17,7 +17,7 @@ const Service = () => {
                 src="/image2.png"
                 className="w-full h-fit"
                 alt=""
-                srcset=""
+                srcSet=""
               />
             </div>
           </div>
@@ -58,7 +58,7 @@ const Service = () => {
                 src="/image2.png"
                 className="w-full h-fit"
                 alt=""
-                srcset=""
+                srcSet=""
               />
             </div>
           </div>
@@ -71,7 +71,7 @@ const Service = () => {
                 src="/image3.png"
                 className="w-full h-fit"
                 alt=""
-                srcset=""
+                srcSet=""
               />
             </div>
           </div>
@@ -107,7 +107,7 @@ const Service = () => {
                 src="/image4.png"
                 className="w-full h-fit"
                 alt=""
-                srcset=""
+                srcSet=""
               />
             </div>
           </div>

@@ -34,7 +34,7 @@ const Home = () => {
                   src="/image2.png"
                   className="w-full h-fit"
                   alt=""
-                  srcset=""
+                  srcSet=""
                 />
               </div>
             </div>
@@ -73,7 +73,7 @@ const Home = () => {
                   src="/comitement.jpg"
                   className="w-full h-fit"
                   alt=""
-                  srcset=""
+                  srcSet=""
                 />
               </div>
             </div>

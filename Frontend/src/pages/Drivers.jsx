@@ -103,7 +103,7 @@ const Drivers = () => {
           <div className="w-full h-full my-10 grid gap-7 lg:grid-cols-3 place-items-start">
             <div className="flex flex-col justify-center items-center">
               <div className="w-[200px] h-[200px] bg-amber-100 rounded-full">
-                <img src="cdl1.png" className="rounded-full" alt="" srcset="" />
+                <img src="cdl1.png" className="rounded-full" alt="" srcSet="" />
               </div>
               <h1 className="mt-3 text-center text-[20px] font-semibold">
                 Our Commitment
@@ -117,7 +117,7 @@ const Drivers = () => {
             </div>
             <div className="flex flex-col justify-center items-center">
               <div className="w-[200px] h-[200px] bg-amber-100 rounded-full">
-                <img src="cdl2.png" className="rounded-full" alt="" srcset="" />
+                <img src="cdl2.png" className="rounded-full" alt="" srcSet="" />
               </div>
               <h1 className="mt-3 text-center text-[20px] font-semibold">
                 Our Fleet
@@ -132,7 +132,7 @@ const Drivers = () => {
             </div>
             <div className="flex flex-col justify-center items-center">
               <div className="w-[200px] h-[200px] bg-amber-100 rounded-full">
-                <img src="cdl3.png" className="rounded-full" alt="" srcset="" />
+                <img src="cdl3.png" className="rounded-full" alt="" srcSet="" />
               </div>
               <h1 className="mt-3 text-center text-[20px] font-semibold">
                 Technical Support
