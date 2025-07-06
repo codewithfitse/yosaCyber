@@ -24,7 +24,7 @@ const Home = () => {
         </div>
 
         <div className=" w-full h-full flex flex-col items-center">
-          <h1 className="py-7 text-[30px] lg:text-[40px] font-bold H1">
+          <h1 className="py-7 text-[30px] lg:text-[40px] font-bold text-red">
             About honeybee xpress
           </h1>
           <div className="w-full h-full mt-5 flex flex-col items-center lg:flex-row gap-3">
@@ -82,7 +82,9 @@ const Home = () => {
 
         <div className="w-full h-fit pb-5 mt-20 lg:mt-30 bg-[#121212]">
           <div className="w-full pt-5 pb-5">
-            <h1 className="text-center font-bold text-[40px] H1">Contact US</h1>
+            <h1 className="text-center font-bold text-[40px] text-red">
+              Contact US
+            </h1>
           </div>
           <div className="w-full h-full flex flex-col lg:flex-row">
             <div className="w-full h-full">
@@ -109,15 +111,19 @@ const Home = () => {
 
                 <h1 className="w-auto text-center text-[14px]">
                   This site is protected by reCAPTCHA and the Google{" "}
-                  <span className="H1">Privacy Policy </span>
-                  and <span className="H1">Terms of Service</span> apply.
+                  <span className="text-red">Privacy Policy </span>
+                  and <span className="text-red">Terms of Service</span> apply.
                 </h1>
               </div>
             </div>
             <div className="w-full h-full pt-10 lg:pt-1">
               <div className="pl-10">
-                <h1 className="font-bold text-[40px] H1">Dawit Freighters</h1>
-                <h1 className="font-bold text-[40px] H1">Business Hours</h1>
+                <h1 className="font-bold text-[40px] text-red">
+                  Dawit Freighters
+                </h1>
+                <h1 className="font-bold text-[40px] text-red">
+                  Business Hours
+                </h1>
                 <div className="mt-3">
                   <h1 className="text-[15px]">Mon 06:00 am – 06:00 pm</h1>
                   <h1 className="text-[15px]">Tue 06:00 am – 06:00 pm</h1>
@@ -128,7 +134,7 @@ const Home = () => {
                   <h1 className="text-[15px]">Sun Closed</h1>
                 </div>
                 <div className="pt-5">
-                  <h1 className="font-bold text-[40px] H1">ADDRESS</h1>
+                  <h1 className="font-bold text-[40px] text-red">ADDRESS</h1>
                   <div className="mt-3">
                     <h1 className="text-[15px]">
                       7345 S Durango Dr. Ste 107 PMB 1049

@@ -50,10 +50,8 @@ body {
   scale: 1.03;
 }
 
-@layer base {
-  :root {
-    --color-lum: #16fe01;
-  }
+@theme {
+  --color-red: #c90404;
 }
 
 
