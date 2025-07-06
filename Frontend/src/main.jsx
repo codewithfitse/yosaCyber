@@ -45,7 +45,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/Gallery",
-    element: <Gallerys />,
+    element: <Gallery />,
   },
 ]);
 
